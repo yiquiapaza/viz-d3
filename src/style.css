@@ -1,0 +1,35 @@
+body {
+	margin: 0px;
+}
+
+#header {
+	padding: 30px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: sticky;
+}
+
+.menu {
+	background: yellow;
+	position: relative;
+}
+
+.menu .menu-div {
+	position: relative;
+	width: 70%;
+	left: 50px;
+	background: red;
+	top: 50px;
+}
+
+.menu .menu-div svg {
+	position: relative;
+	left: 20px;
+}
+
+.menu .menu-list {
+	background: blue;
+}

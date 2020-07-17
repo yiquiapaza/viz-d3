@@ -1,10 +1,13 @@
 import dataAlphabet from '../data/data.json';
+import './style.css';
 import { select, scaleLinear, max, scaleBand, axisLeft, axisBottom } from 'd3';
 
-import style from './style';
+const charbar = select('main').append('div').append('svg');
 
-style();
-const svg = select('svg');
+const svg = select('#barchar')
+	.append('svg')
+	.attr('width', 960)
+	.attr('height', 600);
 
 const width = +svg.attr('width');
 const height = +svg.attr('height');
@@ -34,13 +37,13 @@ const render = (data) => {
 		.call(axisBottom(xScale))
 		.attr('transform', `translate(0, ${innerHeight})`);
 
-	g.selectAll('circle')
+	g.selectAll('rect')
 		.data(data)
 		.enter()
-		.append('circle')
-		.attr('cy', (d) => yScale(yValue(d)))
-		.attr('cx', (d) => xScale(xValue(d)) * 10000)
-		.attr('r', yScale.bandwidth());
+		.append('rect')
+		.attr('y', (d) => yScale(yValue(d)))
+		.attr('width', (d) => xScale(xValue(d)) * 10000)
+		.attr('height', yScale.bandwidth());
 };
 
 render(dataAlphabet);
