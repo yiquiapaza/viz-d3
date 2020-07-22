@@ -1,18 +1,29 @@
 import dataAlphabet from '../data/data.json';
 import './style.css';
-import { select, scaleLinear, max, scaleBand, axisLeft, axisBottom } from 'd3';
+import {
+	select,
+	scaleLinear,
+	max,
+	scaleBand,
+	axisLeft,
+	axisBottom,
+	svg,
+} from 'd3';
 
-const charbar = select('main').append('div').append('svg');
-
-const svg = select('#barchar')
+const barchart = select('#barchar')
 	.append('svg')
 	.attr('width', 960)
 	.attr('height', 600);
 
-const width = +svg.attr('width');
-const height = +svg.attr('height');
+const scatterplot = select('#scatterplot')
+	.append('svg')
+	.attr('width', 960)
+	.attr('height', 600);
 
-const render = (data) => {
+const width = +barchart.attr('width');
+const height = +barchart.attr('height');
+
+const renderBarchart = (data) => {
 	const xValue = (d) => d.value;
 	const yValue = (d) => d.name;
 	const margin = { top: 20, right: 20, bottom: 20, left: 20 };
@@ -28,7 +39,7 @@ const render = (data) => {
 		.range([0, innerHeight])
 		.padding(0.1);
 
-	const g = svg
+	const g = barchart
 		.append('g')
 		.attr('transform', `translate(${margin.left}, ${margin.top})`);
 
@@ -46,4 +57,39 @@ const render = (data) => {
 		.attr('height', yScale.bandwidth());
 };
 
-render(dataAlphabet);
+const renderScatterplot = (data) => {
+	const xValue = (d) => d.value;
+	const yValue = (d) => d.name;
+
+	const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+	const innerWidth = width - margin.left - margin.right;
+	const innerHeight = height - margin.top - margin.bottom;
+
+	const xScale = scaleLinear()
+		.domain([0, max(data, (d) => xValue(d))])
+		.range([0, innerWidth]);
+
+	const yScale = scaleBand()
+		.domain(data.map((d) => yValue(d)))
+		.range([0, innerHeight])
+		.padding(0.1);
+
+	const g = scatterplot
+		.append('g')
+		.attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+	g.append('g').call(axisLeft(yScale));
+	g.append('g')
+		.call(axisBottom(xScale))
+		.attr('transform', `translate(0, ${innerHeight})`);
+
+	g.selectAll('circle')
+		.data(data)
+		.enter()
+		.append('circle')
+		.attr('cy', (d) => yScale(yValue(d)) + yScale.bandwidth() / 2)
+		.attr('cx', (d) => xScale(xValue(d)))
+		.attr('r', yScale.bandwidth() / 6);
+};
+renderBarchart(dataAlphabet);
+renderScatterplot(dataAlphabet);
