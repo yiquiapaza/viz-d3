@@ -7,18 +7,18 @@ import {
 	scaleBand,
 	axisLeft,
 	axisBottom,
-	svg,
+	format,
 } from 'd3';
 
 const barchart = select('#barchar')
 	.append('svg')
-	.attr('width', 960)
-	.attr('height', 600);
+	.attr('width', 1200)
+	.attr('height', 900);
 
 const scatterplot = select('#scatterplot')
 	.append('svg')
-	.attr('width', 960)
-	.attr('height', 600);
+	.attr('width', 1200)
+	.attr('height', 900);
 
 const width = +barchart.attr('width');
 const height = +barchart.attr('height');
@@ -26,7 +26,7 @@ const height = +barchart.attr('height');
 const renderBarchart = (data) => {
 	const xValue = (d) => d.value;
 	const yValue = (d) => d.name;
-	const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+	const margin = { top: 80, right: 80, bottom: 80, left: 80 };
 	const innerWidth = width - margin.left - margin.right;
 	const innerHeight = height - margin.top - margin.bottom;
 
@@ -61,7 +61,7 @@ const renderScatterplot = (data) => {
 	const xValue = (d) => d.value;
 	const yValue = (d) => d.name;
 
-	const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+	const margin = { top: 80, right: 80, bottom: 80, left: 80 };
 	const innerWidth = width - margin.left - margin.right;
 	const innerHeight = height - margin.top - margin.bottom;
 
@@ -78,11 +78,33 @@ const renderScatterplot = (data) => {
 		.append('g')
 		.attr('transform', `translate(${margin.left}, ${margin.top})`);
 
-	g.append('g').call(axisLeft(yScale));
-	g.append('g')
-		.call(axisBottom(xScale))
+	const xAxisTickFormat = (number) => {
+		format('.3s')(number).replace('G', 'B');
+	};
+
+	const xAxis = axisBottom(xScale).tickSize(-innerHeight).tickPadding(15);
+
+	const yAxis = axisLeft(yScale).tickSize(-innerWidth).tickPadding(10);
+
+	const yAxisG = g.append('g').call(yAxis);
+	yAxisG.selectAll('.domain').remove();
+
+	yAxisG
+		.append('text')
+		.attr('class', 'axis-label')
+		.attr('y', -93)
+		.attr('x', -innerHeight / 2)
+		.attr('fill', 'black')
+		.attr('transform', `rotate(-90)`)
+		.attr('text-anchor', 'middle')
+		.text('Cantidad');
+
+	const xAxisG = g
+		.append('g')
+		.call(xAxis)
 		.attr('transform', `translate(0, ${innerHeight})`);
 
+	xAxisG.select('.domain').remove();
 	g.selectAll('circle')
 		.data(data)
 		.enter()
