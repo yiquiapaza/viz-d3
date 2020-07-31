@@ -10,6 +10,36 @@ import {
 	format,
 } from 'd3';
 
+const dimension = document.querySelector('#dimension');
+const augmented = document.querySelector('#augmented');
+
+const addDimesion = () => {
+	dataAlphabet.map((item) => {
+		item.time = Math.random() * 100;
+	});
+};
+
+const sendData = () => {
+	fetch('http://localhost:3030/data-json', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify(dataAlphabet),
+	})
+		.then((response) => {
+			return response.json();
+		})
+		.catch((error) => {
+			console.log('error');
+			throw new Error('Something went wrong');
+		});
+};
+
+dimension.addEventListener('click', addDimesion);
+//augmented.addEventListener('click', sendData);
+augmented.addEventListener('click', sendData);
+
 const barchart = select('#barchar')
 	.append('svg')
 	.attr('width', 1200)

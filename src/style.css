@@ -66,3 +66,45 @@ text {
 	font-size: 3.7em;
 	fill: #635f5d;
 }
+
+.menu-button {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: white;
+
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 5px #999;
+}
+
+.menu-button.dimension {
+	background-color: #4caf50;
+}
+
+.menu-button.dimension:hover {
+	background-color: #3e8e41;
+}
+
+.menu-button.dimension:active {
+	background-color: #3e8e41;
+	box-shadow: 0 2px #999;
+	transform: translate(2px);
+}
+
+.menu-button.augmented {
+	background-color: #be574a;
+}
+.menu-button.augmented:hover {
+	background-color: #b63827;
+}
+
+.menu-button.augmented:active {
+	background-color: #b63827;
+	box-shadow: 0 2px #999;
+	transform: translate(2px);
+}
