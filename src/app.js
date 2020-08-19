@@ -1,4 +1,5 @@
 import dataAlphabet from '../data/data.json';
+import newData from '../data/newData.json';
 import './style.css';
 import {
 	select,
@@ -10,8 +11,8 @@ import {
 	format,
 } from 'd3';
 
-const dimension = document.querySelector('#dimension');
-const augmented = document.querySelector('#augmented');
+const dimension_chartbar = document.querySelector('#dimension-chartbar');
+const augmented_chartbar = document.querySelector('#augmented-chartbar');
 
 const addDimesion = () => {
 	dataAlphabet.map((item) => {
@@ -31,14 +32,14 @@ const sendData = () => {
 			return response.json();
 		})
 		.catch((error) => {
-			console.log('error');
+			console.log(error);
 			throw new Error('Something went wrong');
 		});
 };
 
-dimension.addEventListener('click', addDimesion);
+dimension_chartbar.addEventListener('click', addDimesion);
 //augmented.addEventListener('click', sendData);
-augmented.addEventListener('click', sendData);
+augmented_chartbar.addEventListener('click', sendData);
 
 const barchart = select('#barchar')
 	.append('svg')
@@ -141,7 +142,11 @@ const renderScatterplot = (data) => {
 		.append('circle')
 		.attr('cy', (d) => yScale(yValue(d)) + yScale.bandwidth() / 2)
 		.attr('cx', (d) => xScale(xValue(d)))
-		.attr('r', yScale.bandwidth() / 6);
+		.attr('r', yScale.bandwidth() / 6)
+		.on('click', click);
+	function click(d) {
+		console.log(d); //considering dot has a title attribute
+	}
 };
 renderBarchart(dataAlphabet);
 renderScatterplot(dataAlphabet);

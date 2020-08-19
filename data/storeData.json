@@ -1,0 +1,2019 @@
+[
+	{
+		"region": "Latin America and the Caribbean",
+		"contry_code": 32,
+		"name": "Argentina",
+		"color": "#ffff4d",
+		"data": {
+			"1950": {
+				"population": 17037.91,
+				"infant_mortality_rate": 63.886
+			},
+			"1951": {
+				"population": 17390.378,
+				"infant_mortality_rate": 63.886
+			},
+			"1952": {
+				"population": 17742.98,
+				"infant_mortality_rate": 63.886
+			},
+			"1953": {
+				"population": 18094.29,
+				"infant_mortality_rate": 63.886
+			},
+			"1954": {
+				"population": 18443.313,
+				"infant_mortality_rate": 63.886
+			},
+			"1955": {
+				"population": 18789.415,
+				"infant_mortality_rate": 58.783
+			},
+			"1956": {
+				"population": 19132.405,
+				"infant_mortality_rate": 58.783
+			},
+			"1957": {
+				"population": 19472.473,
+				"infant_mortality_rate": 58.783
+			},
+			"1958": {
+				"population": 19810.165,
+				"infant_mortality_rate": 58.783
+			},
+			"1959": {
+				"population": 20146.307,
+				"infant_mortality_rate": 58.783
+			},
+			"1960": {
+				"population": 20481.781,
+				"infant_mortality_rate": 59.72
+			},
+			"1961": {
+				"population": 20817.27,
+				"infant_mortality_rate": 59.72
+			},
+			"1962": {
+				"population": 21153.042,
+				"infant_mortality_rate": 59.72
+			},
+			"1963": {
+				"population": 21488.916,
+				"infant_mortality_rate": 59.72
+			},
+			"1964": {
+				"population": 21824.427,
+				"infant_mortality_rate": 59.72
+			},
+			"1965": {
+				"population": 22159.644,
+				"infant_mortality_rate": 57.364
+			},
+			"1966": {
+				"population": 22494.031,
+				"infant_mortality_rate": 57.364
+			},
+			"1967": {
+				"population": 22828.872,
+				"infant_mortality_rate": 57.364
+			},
+			"1968": {
+				"population": 23168.268,
+				"infant_mortality_rate": 57.364
+			},
+			"1969": {
+				"population": 23517.613,
+				"infant_mortality_rate": 57.364
+			},
+			"1970": {
+				"population": 23880.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1971": {
+				"population": 24259.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1972": {
+				"population": 24653.172,
+				"infant_mortality_rate": 48.089
+			},
+			"1973": {
+				"population": 25056.475,
+				"infant_mortality_rate": 48.089
+			},
+			"1974": {
+				"population": 25462.305,
+				"infant_mortality_rate": 48.089
+			},
+			"1975": {
+				"population": 25865.775,
+				"infant_mortality_rate": 39.036
+			},
+			"1976": {
+				"population": 26264.681,
+				"infant_mortality_rate": 39.036
+			},
+			"1977": {
+				"population": 26661.397,
+				"infant_mortality_rate": 39.036
+			},
+			"1978": {
+				"population": 27061.041,
+				"infant_mortality_rate": 39.036
+			},
+			"1979": {
+				"population": 27471.046,
+				"infant_mortality_rate": 39.036
+			},
+			"1980": {
+				"population": 27896.532,
+				"infant_mortality_rate": 32.188
+			},
+			"1981": {
+				"population": 28338.514,
+				"infant_mortality_rate": 32.188
+			},
+			"1982": {
+				"population": 28794.55,
+				"infant_mortality_rate": 32.188
+			},
+			"1983": {
+				"population": 29262.049,
+				"infant_mortality_rate": 32.188
+			},
+			"1984": {
+				"population": 29737.097,
+				"infant_mortality_rate": 32.188
+			},
+			"1985": {
+				"population": 30216.284,
+				"infant_mortality_rate": 27.11
+			},
+			"1986": {
+				"population": 30698.964,
+				"infant_mortality_rate": 27.11
+			},
+			"1987": {
+				"population": 31184.411,
+				"infant_mortality_rate": 27.11
+			},
+			"1988": {
+				"population": 31668.939,
+				"infant_mortality_rate": 27.11
+			},
+			"1989": {
+				"population": 32148.137,
+				"infant_mortality_rate": 27.11
+			},
+			"1990": {
+				"population": 32618.648,
+				"infant_mortality_rate": 23.229
+			},
+			"1991": {
+				"population": 33079.002,
+				"infant_mortality_rate": 23.229
+			},
+			"1992": {
+				"population": 33529.32,
+				"infant_mortality_rate": 23.229
+			},
+			"1993": {
+				"population": 33970.103,
+				"infant_mortality_rate": 23.229
+			},
+			"1994": {
+				"population": 34402.669,
+				"infant_mortality_rate": 23.229
+			},
+			"1995": {
+				"population": 34828.168,
+				"infant_mortality_rate": 19.733
+			},
+			"1996": {
+				"population": 35246.376,
+				"infant_mortality_rate": 19.733
+			},
+			"1997": {
+				"population": 35657.438,
+				"infant_mortality_rate": 19.733
+			},
+			"1998": {
+				"population": 36063.451,
+				"infant_mortality_rate": 19.733
+			},
+			"1999": {
+				"population": 36467.218,
+				"infant_mortality_rate": 19.733
+			},
+			"2000": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2001": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2002": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2003": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2004": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2005": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2006": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2007": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2008": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2009": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2010": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2011": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2012": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2013": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2014": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2015": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2016": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2017": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2018": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2019": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			}
+		}
+	},
+	{
+		"region": "Latin America and the Caribbean",
+		"contry_code": 76,
+		"name": "Brazil",
+		"color": "#ffff4d",
+		"data": {
+			"1950": {
+				"population": 53974.728,
+				"infant_mortality_rate": 136.247
+			},
+			"1951": {
+				"population": 55606.413,
+				"infant_mortality_rate": 136.247
+			},
+			"1952": {
+				"population": 57283.658,
+				"infant_mortality_rate": 136.247
+			},
+			"1953": {
+				"population": 58999.276,
+				"infant_mortality_rate": 136.247
+			},
+			"1954": {
+				"population": 60749.49,
+				"infant_mortality_rate": 136.247
+			},
+			"1955": {
+				"population": 62533.92,
+				"infant_mortality_rate": 123.712
+			},
+			"1956": {
+				"population": 64355.709,
+				"infant_mortality_rate": 123.712
+			},
+			"1957": {
+				"population": 66221.469,
+				"infant_mortality_rate": 123.712
+			},
+			"1958": {
+				"population": 68140.426,
+				"infant_mortality_rate": 123.712
+			},
+			"1959": {
+				"population": 70123.372,
+				"infant_mortality_rate": 123.712
+			},
+			"1960": {
+				"population": 72179.235,
+				"infant_mortality_rate": 111.689
+			},
+			"1961": {
+				"population": 74311.338,
+				"infant_mortality_rate": 111.689
+			},
+			"1962": {
+				"population": 76514.329,
+				"infant_mortality_rate": 111.689
+			},
+			"1963": {
+				"population": 78772.647,
+				"infant_mortality_rate": 111.689
+			},
+			"1964": {
+				"population": 81064.572,
+				"infant_mortality_rate": 59.72
+			},
+			"1965": {
+				"population": 83373.533,
+				"infant_mortality_rate": 101.224
+			},
+			"1966": {
+				"population": 85696.502,
+				"infant_mortality_rate": 101.224
+			},
+			"1967": {
+				"population": 88035.815,
+				"infant_mortality_rate": 101.224
+			},
+			"1968": {
+				"population": 90387.079,
+				"infant_mortality_rate": 101.224
+			},
+			"1969": {
+				"population": 92746.607,
+				"infant_mortality_rate": 101.224
+			},
+			"1970": {
+				"population": 95113.265,
+				"infant_mortality_rate": 91.675
+			},
+			"1971": {
+				"population": 97482.928,
+				"infant_mortality_rate": 91.675
+			},
+			"1972": {
+				"population": 99859.388,
+				"infant_mortality_rate": 91.675
+			},
+			"1973": {
+				"population": 102259.497,
+				"infant_mortality_rate": 91.675
+			},
+			"1974": {
+				"population": 104706.193,
+				"infant_mortality_rate": 91.675
+			},
+			"1975": {
+				"population": 107216.209,
+				"infant_mortality_rate": 83.455
+			},
+			"1976": {
+				"population": 109790.943,
+				"infant_mortality_rate": 83.455
+			},
+			"1977": {
+				"population": 112425.392,
+				"infant_mortality_rate": 83.455
+			},
+			"1978": {
+				"population": 115121.158,
+				"infant_mortality_rate": 83.455
+			},
+			"1979": {
+				"population": 117878.412,
+				"infant_mortality_rate": 83.455
+			},
+			"1980": {
+				"population": 120694.012,
+				"infant_mortality_rate": 71.601
+			},
+			"1981": {
+				"population": 123570.327,
+				"infant_mortality_rate": 71.601
+			},
+			"1982": {
+				"population": 126498.322,
+				"infant_mortality_rate": 71.601
+			},
+			"1983": {
+				"population": 129448.815,
+				"infant_mortality_rate": 71.601
+			},
+			"1984": {
+				"population": 132383.569,
+				"infant_mortality_rate": 71.601
+			},
+			"1985": {
+				"population": 135274.083,
+				"infant_mortality_rate": 55.48
+			},
+			"1986": {
+				"population": 138108.915,
+				"infant_mortality_rate": 55.48
+			},
+			"1987": {
+				"population": 140891.606,
+				"infant_mortality_rate": 55.48
+			},
+			"1988": {
+				"population": 143627.505,
+				"infant_mortality_rate": 55.48
+			},
+			"1989": {
+				"population": 146328.305,
+				"infant_mortality_rate": 55.48
+			},
+			"1990": {
+				"population": 149003.225,
+				"infant_mortality_rate": 42.746
+			},
+			"1991": {
+				"population": 151648.007,
+				"infant_mortality_rate": 42.746
+			},
+			"1992": {
+				"population": 154259.382,
+				"infant_mortality_rate": 42.746
+			},
+			"1993": {
+				"population": 156849.086,
+				"infant_mortality_rate": 42.746
+			},
+			"1994": {
+				"population": 159432.717,
+				"infant_mortality_rate": 42.746
+			},
+			"1995": {
+				"population": 162019.889,
+				"infant_mortality_rate": 34.344
+			},
+			"1996": {
+				"population": 164614.682,
+				"infant_mortality_rate": 34.344
+			},
+			"1997": {
+				"population": 167209.046,
+				"infant_mortality_rate": 34.344
+			},
+			"1998": {
+				"population": 169785.253,
+				"infant_mortality_rate": 34.344
+			},
+			"1999": {
+				"population": 172318.674,
+				"infant_mortality_rate": 34.344
+			},
+			"2000": {
+				"population": 0,
+				"infant_mortality_rate": 28.162
+			},
+			"2001": {
+				"population": 0,
+				"infant_mortality_rate": 28.162
+			},
+			"2002": {
+				"population": 0,
+				"infant_mortality_rate": 28.162
+			},
+			"2003": {
+				"population": 0,
+				"infant_mortality_rate": 28.162
+			},
+			"2004": {
+				"population": 0,
+				"infant_mortality_rate": 28.162
+			},
+			"2005": {
+				"population": 0,
+				"infant_mortality_rate": 20.344
+			},
+			"2006": {
+				"population": 0,
+				"infant_mortality_rate": 20.344
+			},
+			"2007": {
+				"population": 0,
+				"infant_mortality_rate": 20.344
+			},
+			"2008": {
+				"population": 0,
+				"infant_mortality_rate": 20.344
+			},
+			"2009": {
+				"population": 0,
+				"infant_mortality_rate": 20.344
+			},
+			"2010": {
+				"population": 0,
+				"infant_mortality_rate": 15.793
+			},
+			"2011": {
+				"population": 0,
+				"infant_mortality_rate": 15.793
+			},
+			"2012": {
+				"population": 0,
+				"infant_mortality_rate": 15.793
+			},
+			"2013": {
+				"population": 0,
+				"infant_mortality_rate": 15.793
+			},
+			"2014": {
+				"population": 0,
+				"infant_mortality_rate": 15.793
+			},
+			"2015": {
+				"population": 0,
+				"infant_mortality_rate": 13.016
+			},
+			"2016": {
+				"population": 0,
+				"infant_mortality_rate": 13.016
+			},
+			"2017": {
+				"population": 0,
+				"infant_mortality_rate": 13.016
+			},
+			"2018": {
+				"population": 0,
+				"infant_mortality_rate": 13.016
+			},
+			"2019": {
+				"population": 0,
+				"infant_mortality_rate": 13.016
+			}
+		}
+	},
+
+	{
+		"region": "Latin America and the Caribbean",
+		"contry_code": 604,
+		"name": "Peru",
+		"color": "#ffff4d",
+		"data": {
+			"1950": {
+				"population": 7777.452,
+				"infant_mortality_rate": 158.531
+			},
+			"1951": {
+				"population": 7976.478,
+				"infant_mortality_rate": 158.531
+			},
+			"1952": {
+				"population": 8184.725,
+				"infant_mortality_rate": 158.531
+			},
+			"1953": {
+				"population": 8401.373,
+				"infant_mortality_rate": 158.531
+			},
+			"1954": {
+				"population": 8625.982,
+				"infant_mortality_rate": 158.531
+			},
+			"1955": {
+				"population": 8858.392,
+				"infant_mortality_rate": 58.783
+			},
+			"1956": {
+				"population": 9098.83,
+				"infant_mortality_rate": 58.783
+			},
+			"1957": {
+				"population": 9347.833,
+				"infant_mortality_rate": 58.783
+			},
+			"1958": {
+				"population": 9606.241,
+				"infant_mortality_rate": 58.783
+			},
+			"1959": {
+				"population": 9875.016,
+				"infant_mortality_rate": 58.783
+			},
+			"1960": {
+				"population": 20481.781,
+				"infant_mortality_rate": 59.72
+			},
+			"1961": {
+				"population": 20817.27,
+				"infant_mortality_rate": 59.72
+			},
+			"1962": {
+				"population": 21153.042,
+				"infant_mortality_rate": 59.72
+			},
+			"1963": {
+				"population": 21488.916,
+				"infant_mortality_rate": 59.72
+			},
+			"1964": {
+				"population": 21824.427,
+				"infant_mortality_rate": 59.72
+			},
+			"1965": {
+				"population": 22159.644,
+				"infant_mortality_rate": 57.364
+			},
+			"1966": {
+				"population": 22494.031,
+				"infant_mortality_rate": 57.364
+			},
+			"1967": {
+				"population": 22828.872,
+				"infant_mortality_rate": 57.364
+			},
+			"1968": {
+				"population": 23168.268,
+				"infant_mortality_rate": 57.364
+			},
+			"1969": {
+				"population": 23517.613,
+				"infant_mortality_rate": 57.364
+			},
+			"1970": {
+				"population": 23880.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1971": {
+				"population": 24259.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1972": {
+				"population": 24653.172,
+				"infant_mortality_rate": 48.089
+			},
+			"1973": {
+				"population": 25056.475,
+				"infant_mortality_rate": 48.089
+			},
+			"1974": {
+				"population": 25462.305,
+				"infant_mortality_rate": 48.089
+			},
+			"1975": {
+				"population": 25865.775,
+				"infant_mortality_rate": 39.036
+			},
+			"1976": {
+				"population": 26264.681,
+				"infant_mortality_rate": 39.036
+			},
+			"1977": {
+				"population": 26661.397,
+				"infant_mortality_rate": 39.036
+			},
+			"1978": {
+				"population": 27061.041,
+				"infant_mortality_rate": 39.036
+			},
+			"1979": {
+				"population": 27471.046,
+				"infant_mortality_rate": 39.036
+			},
+			"1980": {
+				"population": 27896.532,
+				"infant_mortality_rate": 32.188
+			},
+			"1981": {
+				"population": 28338.514,
+				"infant_mortality_rate": 32.188
+			},
+			"1982": {
+				"population": 28794.55,
+				"infant_mortality_rate": 32.188
+			},
+			"1983": {
+				"population": 29262.049,
+				"infant_mortality_rate": 32.188
+			},
+			"1984": {
+				"population": 29737.097,
+				"infant_mortality_rate": 32.188
+			},
+			"1985": {
+				"population": 30216.284,
+				"infant_mortality_rate": 27.11
+			},
+			"1986": {
+				"population": 30698.964,
+				"infant_mortality_rate": 27.11
+			},
+			"1987": {
+				"population": 31184.411,
+				"infant_mortality_rate": 27.11
+			},
+			"1988": {
+				"population": 31668.939,
+				"infant_mortality_rate": 27.11
+			},
+			"1989": {
+				"population": 32148.137,
+				"infant_mortality_rate": 27.11
+			},
+			"1990": {
+				"population": 32618.648,
+				"infant_mortality_rate": 23.229
+			},
+			"1991": {
+				"population": 33079.002,
+				"infant_mortality_rate": 23.229
+			},
+			"1992": {
+				"population": 33529.32,
+				"infant_mortality_rate": 23.229
+			},
+			"1993": {
+				"population": 33970.103,
+				"infant_mortality_rate": 23.229
+			},
+			"1994": {
+				"population": 34402.669,
+				"infant_mortality_rate": 23.229
+			},
+			"1995": {
+				"population": 34828.168,
+				"infant_mortality_rate": 19.733
+			},
+			"1996": {
+				"population": 35246.376,
+				"infant_mortality_rate": 19.733
+			},
+			"1997": {
+				"population": 35657.438,
+				"infant_mortality_rate": 19.733
+			},
+			"1998": {
+				"population": 36063.451,
+				"infant_mortality_rate": 19.733
+			},
+			"1999": {
+				"population": 36467.218,
+				"infant_mortality_rate": 19.733
+			},
+			"2000": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2001": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2002": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2003": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2004": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2005": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2006": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2007": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2008": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2009": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2010": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2011": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2012": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2013": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2014": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2015": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2016": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2017": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2018": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2019": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			}
+		}
+	},
+	{
+		"region": "Europe and Northern America",
+		"contry_code": 840,
+		"name": "United States of America",
+		"color": "#ffff4d",
+		"data": {
+			"1950": {
+				"population": 158804.397,
+				"infant_mortality_rate": 30.162
+			},
+			"1951": {
+				"population": 160872.264,
+				"infant_mortality_rate": 30.162
+			},
+			"1952": {
+				"population": 163266.026,
+				"infant_mortality_rate": 30.162
+			},
+			"1953": {
+				"population": 165909.996,
+				"infant_mortality_rate": 30.162
+			},
+			"1954": {
+				"population": 168736.39,
+				"infant_mortality_rate": 30.162
+			},
+			"1955": {
+				"population": 171685.337,
+				"infant_mortality_rate": 27.18
+			},
+			"1956": {
+				"population": 174705.006,
+				"infant_mortality_rate": 27.18
+			},
+			"1957": {
+				"population": 177751.477,
+				"infant_mortality_rate": 27.18
+			},
+			"1958": {
+				"population": 180788.387,
+				"infant_mortality_rate": 27.18
+			},
+			"1959": {
+				"population": 183786.249,
+				"infant_mortality_rate": 27.18
+			},
+			"1960": {
+				"population": 20481.781,
+				"infant_mortality_rate": 59.72
+			},
+			"1961": {
+				"population": 20817.27,
+				"infant_mortality_rate": 59.72
+			},
+			"1962": {
+				"population": 21153.042,
+				"infant_mortality_rate": 59.72
+			},
+			"1963": {
+				"population": 21488.916,
+				"infant_mortality_rate": 59.72
+			},
+			"1964": {
+				"population": 21824.427,
+				"infant_mortality_rate": 59.72
+			},
+			"1965": {
+				"population": 22159.644,
+				"infant_mortality_rate": 57.364
+			},
+			"1966": {
+				"population": 22494.031,
+				"infant_mortality_rate": 57.364
+			},
+			"1967": {
+				"population": 22828.872,
+				"infant_mortality_rate": 57.364
+			},
+			"1968": {
+				"population": 23168.268,
+				"infant_mortality_rate": 57.364
+			},
+			"1969": {
+				"population": 23517.613,
+				"infant_mortality_rate": 57.364
+			},
+			"1970": {
+				"population": 23880.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1971": {
+				"population": 24259.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1972": {
+				"population": 24653.172,
+				"infant_mortality_rate": 48.089
+			},
+			"1973": {
+				"population": 25056.475,
+				"infant_mortality_rate": 48.089
+			},
+			"1974": {
+				"population": 25462.305,
+				"infant_mortality_rate": 48.089
+			},
+			"1975": {
+				"population": 25865.775,
+				"infant_mortality_rate": 39.036
+			},
+			"1976": {
+				"population": 26264.681,
+				"infant_mortality_rate": 39.036
+			},
+			"1977": {
+				"population": 26661.397,
+				"infant_mortality_rate": 39.036
+			},
+			"1978": {
+				"population": 27061.041,
+				"infant_mortality_rate": 39.036
+			},
+			"1979": {
+				"population": 27471.046,
+				"infant_mortality_rate": 39.036
+			},
+			"1980": {
+				"population": 27896.532,
+				"infant_mortality_rate": 32.188
+			},
+			"1981": {
+				"population": 28338.514,
+				"infant_mortality_rate": 32.188
+			},
+			"1982": {
+				"population": 28794.55,
+				"infant_mortality_rate": 32.188
+			},
+			"1983": {
+				"population": 29262.049,
+				"infant_mortality_rate": 32.188
+			},
+			"1984": {
+				"population": 29737.097,
+				"infant_mortality_rate": 32.188
+			},
+			"1985": {
+				"population": 30216.284,
+				"infant_mortality_rate": 27.11
+			},
+			"1986": {
+				"population": 30698.964,
+				"infant_mortality_rate": 27.11
+			},
+			"1987": {
+				"population": 31184.411,
+				"infant_mortality_rate": 27.11
+			},
+			"1988": {
+				"population": 31668.939,
+				"infant_mortality_rate": 27.11
+			},
+			"1989": {
+				"population": 32148.137,
+				"infant_mortality_rate": 27.11
+			},
+			"1990": {
+				"population": 32618.648,
+				"infant_mortality_rate": 23.229
+			},
+			"1991": {
+				"population": 33079.002,
+				"infant_mortality_rate": 23.229
+			},
+			"1992": {
+				"population": 33529.32,
+				"infant_mortality_rate": 23.229
+			},
+			"1993": {
+				"population": 33970.103,
+				"infant_mortality_rate": 23.229
+			},
+			"1994": {
+				"population": 34402.669,
+				"infant_mortality_rate": 23.229
+			},
+			"1995": {
+				"population": 34828.168,
+				"infant_mortality_rate": 19.733
+			},
+			"1996": {
+				"population": 35246.376,
+				"infant_mortality_rate": 19.733
+			},
+			"1997": {
+				"population": 35657.438,
+				"infant_mortality_rate": 19.733
+			},
+			"1998": {
+				"population": 36063.451,
+				"infant_mortality_rate": 19.733
+			},
+			"1999": {
+				"population": 36467.218,
+				"infant_mortality_rate": 19.733
+			},
+			"2000": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2001": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2002": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2003": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2004": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2005": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2006": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2007": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2008": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2009": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2010": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2011": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2012": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2013": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2014": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2015": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2016": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2017": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2018": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2019": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			}
+		}
+	},
+	{
+		"region": "Europe and Northern America",
+		"contry_code": 124,
+		"name": "Canada",
+		"color": "#ffff4d",
+		"data": {
+			"1950": {
+				"population": 13733.398,
+				"infant_mortality_rate": 37.816
+			},
+			"1951": {
+				"population": 14078.449,
+				"infant_mortality_rate": 37.816
+			},
+			"1952": {
+				"population": 14445.453,
+				"infant_mortality_rate": 37.816
+			},
+			"1953": {
+				"population": 14834.905,
+				"infant_mortality_rate": 37.816
+			},
+			"1954": {
+				"population": 15245.416,
+				"infant_mortality_rate": 37.816
+			},
+			"1955": {
+				"population": 15673.764,
+				"infant_mortality_rate": 32.001
+			},
+			"1956": {
+				"population": 16114.734,
+				"infant_mortality_rate": 32.001
+			},
+			"1957": {
+				"population": 16561.263,
+				"infant_mortality_rate": 32.001
+			},
+			"1958": {
+				"population": 17004.835,
+				"infant_mortality_rate": 32.001
+			},
+			"1959": {
+				"population": 17436.204,
+				"infant_mortality_rate": 32.001
+			},
+			"1960": {
+				"population": 20481.781,
+				"infant_mortality_rate": 59.72
+			},
+			"1961": {
+				"population": 20817.27,
+				"infant_mortality_rate": 59.72
+			},
+			"1962": {
+				"population": 21153.042,
+				"infant_mortality_rate": 59.72
+			},
+			"1963": {
+				"population": 21488.916,
+				"infant_mortality_rate": 59.72
+			},
+			"1964": {
+				"population": 21824.427,
+				"infant_mortality_rate": 59.72
+			},
+			"1965": {
+				"population": 22159.644,
+				"infant_mortality_rate": 57.364
+			},
+			"1966": {
+				"population": 22494.031,
+				"infant_mortality_rate": 57.364
+			},
+			"1967": {
+				"population": 22828.872,
+				"infant_mortality_rate": 57.364
+			},
+			"1968": {
+				"population": 23168.268,
+				"infant_mortality_rate": 57.364
+			},
+			"1969": {
+				"population": 23517.613,
+				"infant_mortality_rate": 57.364
+			},
+			"1970": {
+				"population": 23880.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1971": {
+				"population": 24259.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1972": {
+				"population": 24653.172,
+				"infant_mortality_rate": 48.089
+			},
+			"1973": {
+				"population": 25056.475,
+				"infant_mortality_rate": 48.089
+			},
+			"1974": {
+				"population": 25462.305,
+				"infant_mortality_rate": 48.089
+			},
+			"1975": {
+				"population": 25865.775,
+				"infant_mortality_rate": 39.036
+			},
+			"1976": {
+				"population": 26264.681,
+				"infant_mortality_rate": 39.036
+			},
+			"1977": {
+				"population": 26661.397,
+				"infant_mortality_rate": 39.036
+			},
+			"1978": {
+				"population": 27061.041,
+				"infant_mortality_rate": 39.036
+			},
+			"1979": {
+				"population": 27471.046,
+				"infant_mortality_rate": 39.036
+			},
+			"1980": {
+				"population": 27896.532,
+				"infant_mortality_rate": 32.188
+			},
+			"1981": {
+				"population": 28338.514,
+				"infant_mortality_rate": 32.188
+			},
+			"1982": {
+				"population": 28794.55,
+				"infant_mortality_rate": 32.188
+			},
+			"1983": {
+				"population": 29262.049,
+				"infant_mortality_rate": 32.188
+			},
+			"1984": {
+				"population": 29737.097,
+				"infant_mortality_rate": 32.188
+			},
+			"1985": {
+				"population": 30216.284,
+				"infant_mortality_rate": 27.11
+			},
+			"1986": {
+				"population": 30698.964,
+				"infant_mortality_rate": 27.11
+			},
+			"1987": {
+				"population": 31184.411,
+				"infant_mortality_rate": 27.11
+			},
+			"1988": {
+				"population": 31668.939,
+				"infant_mortality_rate": 27.11
+			},
+			"1989": {
+				"population": 32148.137,
+				"infant_mortality_rate": 27.11
+			},
+			"1990": {
+				"population": 32618.648,
+				"infant_mortality_rate": 23.229
+			},
+			"1991": {
+				"population": 33079.002,
+				"infant_mortality_rate": 23.229
+			},
+			"1992": {
+				"population": 33529.32,
+				"infant_mortality_rate": 23.229
+			},
+			"1993": {
+				"population": 33970.103,
+				"infant_mortality_rate": 23.229
+			},
+			"1994": {
+				"population": 34402.669,
+				"infant_mortality_rate": 23.229
+			},
+			"1995": {
+				"population": 34828.168,
+				"infant_mortality_rate": 19.733
+			},
+			"1996": {
+				"population": 35246.376,
+				"infant_mortality_rate": 19.733
+			},
+			"1997": {
+				"population": 35657.438,
+				"infant_mortality_rate": 19.733
+			},
+			"1998": {
+				"population": 36063.451,
+				"infant_mortality_rate": 19.733
+			},
+			"1999": {
+				"population": 36467.218,
+				"infant_mortality_rate": 19.733
+			},
+			"2000": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2001": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2002": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2003": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2004": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2005": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2006": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2007": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2008": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2009": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2010": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2011": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2012": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2013": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2014": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2015": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2016": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2017": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2018": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2019": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			}
+		}
+	},
+	{
+		"region": "Europe and Northern America",
+		"contry_code": 250,
+		"name": "France",
+		"color": "#ffff4d",
+		"data": {
+			"1950": {
+				"population": 41833.873,
+				"infant_mortality_rate": 44.216
+			},
+			"1951": {
+				"population": 42031.196,
+				"infant_mortality_rate": 44.216
+			},
+			"1952": {
+				"population": 42315.598,
+				"infant_mortality_rate": 44.216
+			},
+			"1953": {
+				"population": 42654.661,
+				"infant_mortality_rate": 44.216
+			},
+			"1954": {
+				"population": 43024.817,
+				"infant_mortality_rate": 44.216
+			},
+			"1955": {
+				"population": 43411.377,
+				"infant_mortality_rate": 32.507
+			},
+			"1956": {
+				"population": 43808.997,
+				"infant_mortality_rate": 32.507
+			},
+			"1957": {
+				"population": 44221.224,
+				"infant_mortality_rate": 32.507
+			},
+			"1958": {
+				"population": 44659.052,
+				"infant_mortality_rate": 32.507
+			},
+			"1959": {
+				"population": 45138.433,
+				"infant_mortality_rate": 32.507
+			},
+			"1960": {
+				"population": 20481.781,
+				"infant_mortality_rate": 59.72
+			},
+			"1961": {
+				"population": 20817.27,
+				"infant_mortality_rate": 59.72
+			},
+			"1962": {
+				"population": 21153.042,
+				"infant_mortality_rate": 59.72
+			},
+			"1963": {
+				"population": 21488.916,
+				"infant_mortality_rate": 59.72
+			},
+			"1964": {
+				"population": 21824.427,
+				"infant_mortality_rate": 59.72
+			},
+			"1965": {
+				"population": 22159.644,
+				"infant_mortality_rate": 57.364
+			},
+			"1966": {
+				"population": 22494.031,
+				"infant_mortality_rate": 57.364
+			},
+			"1967": {
+				"population": 22828.872,
+				"infant_mortality_rate": 57.364
+			},
+			"1968": {
+				"population": 23168.268,
+				"infant_mortality_rate": 57.364
+			},
+			"1969": {
+				"population": 23517.613,
+				"infant_mortality_rate": 57.364
+			},
+			"1970": {
+				"population": 23880.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1971": {
+				"population": 24259.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1972": {
+				"population": 24653.172,
+				"infant_mortality_rate": 48.089
+			},
+			"1973": {
+				"population": 25056.475,
+				"infant_mortality_rate": 48.089
+			},
+			"1974": {
+				"population": 25462.305,
+				"infant_mortality_rate": 48.089
+			},
+			"1975": {
+				"population": 25865.775,
+				"infant_mortality_rate": 39.036
+			},
+			"1976": {
+				"population": 26264.681,
+				"infant_mortality_rate": 39.036
+			},
+			"1977": {
+				"population": 26661.397,
+				"infant_mortality_rate": 39.036
+			},
+			"1978": {
+				"population": 27061.041,
+				"infant_mortality_rate": 39.036
+			},
+			"1979": {
+				"population": 27471.046,
+				"infant_mortality_rate": 39.036
+			},
+			"1980": {
+				"population": 27896.532,
+				"infant_mortality_rate": 32.188
+			},
+			"1981": {
+				"population": 28338.514,
+				"infant_mortality_rate": 32.188
+			},
+			"1982": {
+				"population": 28794.55,
+				"infant_mortality_rate": 32.188
+			},
+			"1983": {
+				"population": 29262.049,
+				"infant_mortality_rate": 32.188
+			},
+			"1984": {
+				"population": 29737.097,
+				"infant_mortality_rate": 32.188
+			},
+			"1985": {
+				"population": 30216.284,
+				"infant_mortality_rate": 27.11
+			},
+			"1986": {
+				"population": 30698.964,
+				"infant_mortality_rate": 27.11
+			},
+			"1987": {
+				"population": 31184.411,
+				"infant_mortality_rate": 27.11
+			},
+			"1988": {
+				"population": 31668.939,
+				"infant_mortality_rate": 27.11
+			},
+			"1989": {
+				"population": 32148.137,
+				"infant_mortality_rate": 27.11
+			},
+			"1990": {
+				"population": 32618.648,
+				"infant_mortality_rate": 23.229
+			},
+			"1991": {
+				"population": 33079.002,
+				"infant_mortality_rate": 23.229
+			},
+			"1992": {
+				"population": 33529.32,
+				"infant_mortality_rate": 23.229
+			},
+			"1993": {
+				"population": 33970.103,
+				"infant_mortality_rate": 23.229
+			},
+			"1994": {
+				"population": 34402.669,
+				"infant_mortality_rate": 23.229
+			},
+			"1995": {
+				"population": 34828.168,
+				"infant_mortality_rate": 19.733
+			},
+			"1996": {
+				"population": 35246.376,
+				"infant_mortality_rate": 19.733
+			},
+			"1997": {
+				"population": 35657.438,
+				"infant_mortality_rate": 19.733
+			},
+			"1998": {
+				"population": 36063.451,
+				"infant_mortality_rate": 19.733
+			},
+			"1999": {
+				"population": 36467.218,
+				"infant_mortality_rate": 19.733
+			},
+			"2000": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2001": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2002": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2003": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2004": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2005": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2006": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2007": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2008": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2009": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2010": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2011": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2012": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2013": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2014": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2015": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2016": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2017": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2018": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2019": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			}
+		}
+	},
+	{
+		"region": "Eastern and South-Eastern Asia",
+		"contry_code": 156,
+		"name": "China",
+		"color": "#ffff4d",
+		"data": {
+			"1950": {
+				"population": 554419.269,
+				"infant_mortality_rate": 128.878
+			},
+			"1951": {
+				"population": 569909.108,
+				"infant_mortality_rate": 128.878
+			},
+			"1952": {
+				"population": 582576.497,
+				"infant_mortality_rate": 128.878
+			},
+			"1953": {
+				"population": 593365.882,
+				"infant_mortality_rate": 128.878
+			},
+			"1954": {
+				"population": 603052.316,
+				"infant_mortality_rate": 128.878
+			},
+			"1955": {
+				"population": 612241.552,
+				"infant_mortality_rate": 131.053
+			},
+			"1956": {
+				"population": 621363.233,
+				"infant_mortality_rate": 131.053
+			},
+			"1957": {
+				"population": 630677.648,
+				"infant_mortality_rate": 131.053
+			},
+			"1958": {
+				"population": 640295.777,
+				"infant_mortality_rate": 131.053
+			},
+			"1959": {
+				"population": 650212.731,
+				"infant_mortality_rate": 131.053
+			},
+			"1960": {
+				"population": 20481.781,
+				"infant_mortality_rate": 59.72
+			},
+			"1961": {
+				"population": 20817.27,
+				"infant_mortality_rate": 59.72
+			},
+			"1962": {
+				"population": 21153.042,
+				"infant_mortality_rate": 59.72
+			},
+			"1963": {
+				"population": 21488.916,
+				"infant_mortality_rate": 59.72
+			},
+			"1964": {
+				"population": 21824.427,
+				"infant_mortality_rate": 59.72
+			},
+			"1965": {
+				"population": 22159.644,
+				"infant_mortality_rate": 57.364
+			},
+			"1966": {
+				"population": 22494.031,
+				"infant_mortality_rate": 57.364
+			},
+			"1967": {
+				"population": 22828.872,
+				"infant_mortality_rate": 57.364
+			},
+			"1968": {
+				"population": 23168.268,
+				"infant_mortality_rate": 57.364
+			},
+			"1969": {
+				"population": 23517.613,
+				"infant_mortality_rate": 57.364
+			},
+			"1970": {
+				"population": 23880.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1971": {
+				"population": 24259.564,
+				"infant_mortality_rate": 48.089
+			},
+			"1972": {
+				"population": 24653.172,
+				"infant_mortality_rate": 48.089
+			},
+			"1973": {
+				"population": 25056.475,
+				"infant_mortality_rate": 48.089
+			},
+			"1974": {
+				"population": 25462.305,
+				"infant_mortality_rate": 48.089
+			},
+			"1975": {
+				"population": 25865.775,
+				"infant_mortality_rate": 39.036
+			},
+			"1976": {
+				"population": 26264.681,
+				"infant_mortality_rate": 39.036
+			},
+			"1977": {
+				"population": 26661.397,
+				"infant_mortality_rate": 39.036
+			},
+			"1978": {
+				"population": 27061.041,
+				"infant_mortality_rate": 39.036
+			},
+			"1979": {
+				"population": 27471.046,
+				"infant_mortality_rate": 39.036
+			},
+			"1980": {
+				"population": 27896.532,
+				"infant_mortality_rate": 32.188
+			},
+			"1981": {
+				"population": 28338.514,
+				"infant_mortality_rate": 32.188
+			},
+			"1982": {
+				"population": 28794.55,
+				"infant_mortality_rate": 32.188
+			},
+			"1983": {
+				"population": 29262.049,
+				"infant_mortality_rate": 32.188
+			},
+			"1984": {
+				"population": 29737.097,
+				"infant_mortality_rate": 32.188
+			},
+			"1985": {
+				"population": 30216.284,
+				"infant_mortality_rate": 27.11
+			},
+			"1986": {
+				"population": 30698.964,
+				"infant_mortality_rate": 27.11
+			},
+			"1987": {
+				"population": 31184.411,
+				"infant_mortality_rate": 27.11
+			},
+			"1988": {
+				"population": 31668.939,
+				"infant_mortality_rate": 27.11
+			},
+			"1989": {
+				"population": 32148.137,
+				"infant_mortality_rate": 27.11
+			},
+			"1990": {
+				"population": 32618.648,
+				"infant_mortality_rate": 23.229
+			},
+			"1991": {
+				"population": 33079.002,
+				"infant_mortality_rate": 23.229
+			},
+			"1992": {
+				"population": 33529.32,
+				"infant_mortality_rate": 23.229
+			},
+			"1993": {
+				"population": 33970.103,
+				"infant_mortality_rate": 23.229
+			},
+			"1994": {
+				"population": 34402.669,
+				"infant_mortality_rate": 23.229
+			},
+			"1995": {
+				"population": 34828.168,
+				"infant_mortality_rate": 19.733
+			},
+			"1996": {
+				"population": 35246.376,
+				"infant_mortality_rate": 19.733
+			},
+			"1997": {
+				"population": 35657.438,
+				"infant_mortality_rate": 19.733
+			},
+			"1998": {
+				"population": 36063.451,
+				"infant_mortality_rate": 19.733
+			},
+			"1999": {
+				"population": 36467.218,
+				"infant_mortality_rate": 19.733
+			},
+			"2000": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2001": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2002": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2003": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2004": {
+				"population": 0,
+				"infant_mortality_rate": 16.749
+			},
+			"2005": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2006": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2007": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2008": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2009": {
+				"population": 0,
+				"infant_mortality_rate": 14.211
+			},
+			"2010": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2011": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2012": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2013": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2014": {
+				"population": 0,
+				"infant_mortality_rate": 12.056
+			},
+			"2015": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2016": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2017": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2018": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			},
+			"2019": {
+				"population": 0,
+				"infant_mortality_rate": 10.225
+			}
+		}
+	}
+]
