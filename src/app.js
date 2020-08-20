@@ -9,6 +9,12 @@ import {
 	axisLeft,
 	axisBottom,
 	format,
+	min,
+	scaleOrdinal,
+	map,
+	scaleLog,
+	extent,
+	scaleSqrt,
 } from 'd3';
 
 const dimension_chartbar = document.querySelector('#dimension-chartbar');
@@ -148,5 +154,110 @@ const renderScatterplot = (data) => {
 		console.log(d); //considering dot has a title attribute
 	}
 };
+
+let final_width = 1200;
+let final_height = 900;
+
+let final_margin = {
+	top: 80,
+	right: 80,
+	bottom: 80,
+	left: 80,
+};
+
+let colors = ['#596F7E', '#168B98', '#ED5B67', '#fd8f24', '#919c4c'];
+
+let minYear = min(newData, (d) => d.year);
+let maxYear = max(newData, (d) => d.year);
+
+let colorScale = scaleOrdinal()
+	.domain(map(newData, (d) => d.region).keys())
+	.range(colors);
+
+const final_visualization = select('#final')
+	.append('svg')
+	.attr('width', final_width)
+	.attr('height', final_height);
+
+final_visualization.append('g');
+
+let xScale = scaleLog()
+	.domain(extent(newData, (d) => d.life_expectance))
+	.nice()
+	.range([final_margin.left, final_width - final_margin.right]);
+
+let yScale = scaleLog()
+	.domain(extent(newData, (d) => d.infant_mortality_rate))
+	.nice()
+	.range([final_height - final_margin.bottom, final_margin.top]);
+
+let aScale = scaleSqrt()
+	.domain(extent(newData, (d) => d.population))
+	.range([0, 30]);
+
+let xAxis = (g) =>
+	g
+		.attr('transform', `translate(0, ${final_height - final_margin.bottom})`)
+		.call(axisBottom(xScale))
+		.call((g) => g.select('.domain').remove());
+
+let yAxis = (g) =>
+	g
+		.attr('transform', `translate(${final_margin.left}, 0)`)
+		.call(axisLeft(yScale))
+		.call((g) => g.select('.domain').remove());
+
+const t = final_visualization.transition().duration(1000);
+
+const out = final_visualization.select('g');
+
+out
+	.selectAll('circle')
+	.data(newData, (d) => d.name)
+	.join(
+		(enter) =>
+			enter
+				.append('circle')
+				.attr('class', 'bubble')
+				.attr('id', (d, i) => 'point-' + i)
+				.attr('fill-opacity', 0)
+				.attr('fill', (d) => colorScale(d.region))
+				.attr('cx', final_width / 2 - final_margin.left)
+				.attr('cy', final_height / 2 - final_margin.bottom)
+				.attr('r', 0)
+				.call((enter) =>
+					enter
+						.transition(t)
+						.attr('fill-opacity', 0.75)
+						.attr('cx', (d) => xScale(d.life_expectance))
+						.attr('cy', (d) => yScale(d.infant_mortality_rate))
+						.attr('r', (d) => aScale(d.population))
+				),
+		(update) =>
+			update.call((update) =>
+				update
+					.transition(t)
+					.attr('cx', (d) => xScale(d.life_expectance))
+					.attr('cy', (d) => yScale(d.infant_mortality_rate))
+					.attr('r', (d) => aScale(d.population))
+			),
+		(exit) =>
+			exit.call((exit) =>
+				exit.transition(t).attr('r', 0).style('fill-opacity', 0).remove()
+			)
+	);
+
+final_visualization
+	.append('text')
+	.attr(
+		'transform',
+		'translate(' + final_width / 2 + ',' + (final_height - 20) + ')'
+	)
+	.style('text-anchor', 'middle')
+	.style('font-size', '20px')
+	.text('Life Expectance Both');
+
+final_visualization.append('g').call(xAxis);
+final_visualization.append('g').call(yAxis);
 renderBarchart(dataAlphabet);
 renderScatterplot(dataAlphabet);

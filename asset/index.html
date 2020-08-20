@@ -33,6 +33,27 @@
 						Augmented Reality
 					</button>
 				</div>
+				<h1 style="text-align: center;">Final Scatterplot</h1>
+				<div style="text-align: center;" class="slidecontainer">
+					<form oninput="result.value = parseInt(year.value)">
+						<div>
+							<div>Years</div>
+							<input
+								name="input"
+								type="range"
+								id="year"
+								min="1950"
+								max="1959"
+								value="1950"
+								step="1"
+							/>
+							<output id="result" for="year"> </output>
+						</div>
+					</form>
+				</div>
+				<div class="menu">
+					<div class="menu-div" id="final"></div>
+				</div>
 			</div>
 		</main>
 	</body>
