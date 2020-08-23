@@ -2,9 +2,21 @@
 	{
 		"year": 1950,
 		"region": "Latin America and the Caribbean",
+		"contry_code": 0,
+		"name": "test",
+		"color": "#ffff4d",
+		"population": 2,
+		"continet": "",
+		"infant_mortality_rate": 0.0,
+		"life_expectance": 0.0
+	},
+	{
+		"year": 1950,
+		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 17037.91,
 		"infant_mortality_rate": 63.886,
 		"life_expectance": 62.57
@@ -14,7 +26,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 17390.378,
 		"infant_mortality_rate": 63.886,
 		"life_expectance": 62.57
@@ -24,7 +37,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 17742.98,
 		"infant_mortality_rate": 63.886,
 		"life_expectance": 62.57
@@ -34,7 +48,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 18094.29,
 		"infant_mortality_rate": 63.886,
 		"life_expectance": 62.57
@@ -44,7 +59,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 18443.313,
 		"infant_mortality_rate": 63.886,
 		"life_expectance": 62.57
@@ -54,7 +70,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 18789.415,
 		"infant_mortality_rate": 58.783,
 		"life_expectance": 64.58
@@ -64,7 +81,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 19132.405,
 		"infant_mortality_rate": 58.783,
 		"life_expectance": 64.58
@@ -74,7 +92,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 19472.473,
 		"infant_mortality_rate": 58.783,
 		"life_expectance": 64.58
@@ -84,7 +103,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 19810.165,
 		"infant_mortality_rate": 58.783,
 		"life_expectance": 64.58
@@ -94,7 +114,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 32,
 		"name": "Argentina",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 20146.307,
 		"infant_mortality_rate": 58.783,
 		"life_expectance": 64.58
@@ -104,7 +125,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 53974.728,
 		"infant_mortality_rate": 136.247,
 		"life_expectance": 50.83
@@ -114,7 +136,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 55606.413,
 		"infant_mortality_rate": 136.247,
 		"life_expectance": 50.83
@@ -124,7 +147,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 57283.658,
 		"infant_mortality_rate": 136.247,
 		"life_expectance": 50.83
@@ -134,7 +158,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 58999.276,
 		"infant_mortality_rate": 136.247,
 		"life_expectance": 50.83
@@ -144,7 +169,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 60749.49,
 		"infant_mortality_rate": 136.247,
 		"life_expectance": 50.83
@@ -154,7 +180,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 62533.92,
 		"infant_mortality_rate": 123.712,
 		"life_expectance": 52.95
@@ -164,7 +191,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 53974.728,
 		"infant_mortality_rate": 123.712,
 		"life_expectance": 52.95
@@ -174,7 +202,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 53974.728,
 		"infant_mortality_rate": 123.712,
 		"life_expectance": 52.95
@@ -184,7 +213,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 53974.728,
 		"infant_mortality_rate": 123.712,
 		"life_expectance": 52.95
@@ -194,7 +224,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 76,
 		"name": "Brazil",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 53974.728,
 		"infant_mortality_rate": 123.712,
 		"life_expectance": 52.95
@@ -204,7 +235,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 7777.452,
 		"infant_mortality_rate": 158.531,
 		"life_expectance": 44.11
@@ -214,7 +246,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 7976.478,
 		"infant_mortality_rate": 158.531,
 		"life_expectance": 44.11
@@ -224,7 +257,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 8184.725,
 		"infant_mortality_rate": 158.531,
 		"life_expectance": 44.11
@@ -234,7 +268,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 8401.373,
 		"infant_mortality_rate": 158.531,
 		"life_expectance": 44.11
@@ -244,7 +279,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 8625.982,
 		"infant_mortality_rate": 158.531,
 		"life_expectance": 44.11
@@ -254,7 +290,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 8858.392,
 		"infant_mortality_rate": 148.153,
 		"life_expectance": 46.44
@@ -264,7 +301,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 9098.83,
 		"infant_mortality_rate": 148.153,
 		"life_expectance": 46.44
@@ -274,7 +312,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 9347.833,
 		"infant_mortality_rate": 148.153,
 		"life_expectance": 46.44
@@ -284,7 +323,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 9606.241,
 		"infant_mortality_rate": 148.153,
 		"life_expectance": 46.44
@@ -294,7 +334,8 @@
 		"region": "Latin America and the Caribbean",
 		"contry_code": 604,
 		"name": "Peru",
-		"color": "#ffff4d",
+		"color": "#2ecc71",
+		"continet": "South America",
 		"population": 9875.016,
 		"infant_mortality_rate": 148.153,
 		"life_expectance": 46.44
@@ -304,7 +345,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 604,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 158804.397,
 		"infant_mortality_rate": 30.162,
 		"life_expectance": 68.71
@@ -314,7 +356,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 840,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 160872.264,
 		"infant_mortality_rate": 30.162,
 		"life_expectance": 68.71
@@ -324,7 +367,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 840,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 163266.026,
 		"infant_mortality_rate": 30.162,
 		"life_expectance": 68.71
@@ -334,7 +378,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 840,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 165909.996,
 		"infant_mortality_rate": 30.162,
 		"life_expectance": 68.71
@@ -344,7 +389,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 840,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 168736.39,
 		"infant_mortality_rate": 30.162,
 		"life_expectance": 68.71
@@ -354,7 +400,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 840,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 171685.337,
 		"infant_mortality_rate": 27.18,
 		"life_expectance": 69.66
@@ -364,7 +411,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 840,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 174705.006,
 		"infant_mortality_rate": 27.18,
 		"life_expectance": 69.66
@@ -374,7 +422,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 840,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 177751.477,
 		"infant_mortality_rate": 27.18,
 		"life_expectance": 69.66
@@ -384,7 +433,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 840,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 180788.387,
 		"infant_mortality_rate": 27.18,
 		"life_expectance": 69.66
@@ -394,7 +444,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 840,
 		"name": "United States of America",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 183786.249,
 		"infant_mortality_rate": 27.18,
 		"life_expectance": 69.66
@@ -404,7 +455,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 13733.398,
 		"infant_mortality_rate": 37.816,
 		"life_expectance": 69.05
@@ -414,7 +466,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 14078.449,
 		"infant_mortality_rate": 37.816,
 		"life_expectance": 69.05
@@ -424,7 +477,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 14445.453,
 		"infant_mortality_rate": 37.816,
 		"life_expectance": 69.05
@@ -434,7 +488,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 14834.905,
 		"infant_mortality_rate": 37.816,
 		"life_expectance": 69.05
@@ -444,7 +499,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 15245.416,
 		"infant_mortality_rate": 37.816,
 		"life_expectance": 69.05
@@ -454,7 +510,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 15673.764,
 		"infant_mortality_rate": 32.001,
 		"life_expectance": 70.32
@@ -464,7 +521,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 16114.734,
 		"infant_mortality_rate": 32.001,
 		"life_expectance": 70.32
@@ -474,7 +532,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 16561.263,
 		"infant_mortality_rate": 32.001,
 		"life_expectance": 70.32
@@ -484,7 +543,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 17004.835,
 		"infant_mortality_rate": 32.001,
 		"life_expectance": 70.32
@@ -494,7 +554,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 124,
 		"name": "Canada",
-		"color": "#ffff4d",
+		"color": "#3498db",
+		"continet": "North America",
 		"population": 17436.204,
 		"infant_mortality_rate": 32.001,
 		"life_expectance": 70.32
@@ -504,7 +565,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 41833.873,
 		"infant_mortality_rate": 44.216,
 		"life_expectance": 67.27
@@ -514,7 +576,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 42031.196,
 		"infant_mortality_rate": 44.216,
 		"life_expectance": 67.27
@@ -524,7 +587,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 42315.598,
 		"infant_mortality_rate": 44.216,
 		"life_expectance": 67.27
@@ -534,7 +598,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 42654.661,
 		"infant_mortality_rate": 44.216,
 		"life_expectance": 67.27
@@ -544,7 +609,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 43024.817,
 		"infant_mortality_rate": 44.216,
 		"life_expectance": 67.27
@@ -554,7 +620,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 43411.377,
 		"infant_mortality_rate": 32.507,
 		"life_expectance": 69.39
@@ -564,7 +631,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 43808.997,
 		"infant_mortality_rate": 32.507,
 		"life_expectance": 69.39
@@ -574,7 +642,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 44221.224,
 		"infant_mortality_rate": 32.507,
 		"life_expectance": 69.39
@@ -584,7 +653,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 44659.052,
 		"infant_mortality_rate": 32.507,
 		"life_expectance": 69.39
@@ -594,7 +664,8 @@
 		"region": "Europe and Northern America",
 		"contry_code": 250,
 		"name": "France",
-		"color": "#ffff4d",
+		"color": "#8e44ad",
+		"continet": "Europe",
 		"population": 45138.433,
 		"infant_mortality_rate": 32.507,
 		"life_expectance": 69.39
@@ -604,7 +675,8 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
+		"continet": "Asia",
 		"population": 554419.269,
 		"infant_mortality_rate": 128.878,
 		"life_expectance": 43.83
@@ -614,7 +686,8 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
+		"continet": "Asia",
 		"population": 569909.108,
 		"infant_mortality_rate": 128.878,
 		"life_expectance": 43.83
@@ -624,7 +697,8 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
+		"continet": "Asia",
 		"population": 582576.497,
 		"infant_mortality_rate": 128.878,
 		"life_expectance": 43.83
@@ -634,7 +708,8 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
+		"continet": "Asia",
 		"population": 593365.882,
 		"infant_mortality_rate": 128.878,
 		"life_expectance": 43.83
@@ -644,7 +719,8 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
+		"continet": "Asia",
 		"population": 603052.316,
 		"infant_mortality_rate": 128.878,
 		"life_expectance": 43.83
@@ -654,7 +730,8 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
+		"continet": "Asia",
 		"population": 612241.552,
 		"infant_mortality_rate": 131.053,
 		"life_expectance": 44.47
@@ -664,7 +741,8 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
+		"continet": "Asia",
 		"population": 621363.233,
 		"infant_mortality_rate": 131.053,
 		"life_expectance": 44.47
@@ -674,7 +752,8 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
+		"continet": "Asia",
 		"population": 630677.648,
 		"infant_mortality_rate": 131.053,
 		"life_expectance": 44.47
@@ -694,7 +773,7 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
 		"population": 650212.731,
 		"infant_mortality_rate": 131.053,
 		"life_expectance": 44.47

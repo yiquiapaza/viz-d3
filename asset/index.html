@@ -10,49 +10,32 @@
 			<h1>Visualization in 2D</h1>
 		</header>
 		<main>
-			<h1 style="text-align: center;">Barchart</h1>
-			<div class="menu">
-				<div class="menu-div" id="barchar"></div>
-				<div class="menu-list">
-					<button class="menu-button dimension" id="dimension-chartbar">
-						Add time dimension
-					</button>
-					<button class="menu-button augmented" id="augmented-chartbar">
-						Augmented Reality
-					</button>
-				</div>
-			</div>
-			<h1 style="text-align: center;">Scatterplot</h1>
-			<div class="menu">
-				<div class="menu-div" id="scatterplot"></div>
-				<div class="menu-list">
-					<button class="menu-button dimension" id="dimension-scatterplot">
-						Add time dimension
-					</button>
-					<button class="menu-button augmented" id="augmented-scatterplot">
-						Augmented Reality
-					</button>
-				</div>
+			<div class="container">
 				<h1 style="text-align: center;">Final Scatterplot</h1>
-				<div style="text-align: center;" class="slidecontainer">
-					<form oninput="result.value = parseInt(year.value)">
-						<div>
-							<div>Years</div>
-							<input
-								name="input"
-								type="range"
-								id="year"
-								min="1950"
-								max="1959"
-								value="1950"
-								step="1"
-							/>
-							<output id="result" for="year"> </output>
-						</div>
-					</form>
+				<div style="margin: auto;" class="slidecontainer">
+					<div class="container">
+						<form oninput="result.value = parseInt(year.value)">
+							<div>
+								<div>Years</div>
+								<input
+									name="input"
+									type="range"
+									id="year"
+									min="1950"
+									max="1959"
+									value="1950"
+									step="1"
+									class="slider"
+								/>
+								<output id="result" for="year">1950 </output>
+							</div>
+						</form>
+					</div>
 				</div>
-				<div class="menu">
-					<div class="menu-div" id="final"></div>
+				<div class="container">
+					<div>
+						<div id="final"></div>
+					</div>
 				</div>
 			</div>
 		</main>
