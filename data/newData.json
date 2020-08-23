@@ -763,7 +763,8 @@
 		"region": "Eastern and South-Eastern Asia",
 		"contry_code": 156,
 		"name": "China",
-		"color": "#ffff4d",
+		"color": "#f39c12",
+		"continet": "Asia",
 		"population": 640295.777,
 		"infant_mortality_rate": 131.053,
 		"life_expectance": 44.47

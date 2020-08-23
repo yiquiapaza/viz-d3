@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
 	font-family: Arial, Helvetica, sans-serif;
+	color: #2c3e50;
 }
 
 #header {
@@ -75,13 +76,13 @@ text {
 }
 
 .text {
-	font-family: 'Montserrat';
+	font-family: Arial, Helvetica, sans-serif;
 }
 .grid {
-	font-family: 'Montserrat';
+	font-family: Arial, Helvetica, sans-serif;
 }
 div.tooltip {
-	font-family: 'Montserrat';
+	font-family: Arial, Helvetica, sans-serif;
 	position: absolute;
 	text-align: left;
 	padding: 0.5em;

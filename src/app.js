@@ -9,7 +9,6 @@ import {
 	axisLeft,
 	scaleSqrt,
 	scaleLinear,
-	keys,
 } from 'd3';
 
 let width = 1200;
@@ -22,8 +21,7 @@ let maxYear = max(data, (d) => d.year);
 const svg = select('#final')
 	.append('svg')
 	.attr('width', width)
-	.attr('height', height)
-	.style('fill', '#F5F5F2');
+	.attr('height', height);
 
 const t = svg.transition().duration(2000);
 //const circle = svg;
@@ -57,6 +55,47 @@ let aScale = scaleSqrt()
 svg.append('g').call(xAxis);
 svg.append('g').call(yAxis);
 
+svg
+	.append('text')
+	.attr('class', 'text')
+	.attr('transform', `translate( ${width / 2} , ${height - 20})`)
+	.attr('text-anchor', 'middle')
+	.attr('font-size', '30px')
+	.text('Life Expectance');
+
+svg
+	.append('text')
+	.attr('class', 'text')
+	.attr(
+		'transform',
+		`translate( ${margin.left / 4} , ${height / 2})rotate(-90)`
+	)
+	.attr('text-anchor', 'middle')
+	.attr('font-size', '30px')
+	.text('Infant Mortality Rate');
+
+svg
+	.append('g')
+	.attr('class', 'grid')
+	.attr('transform', 'translate(0,' + (height - margin.bottom) + ')')
+	.attr('stroke-opacity', 0.5)
+	.call(
+		axisBottom(xScale)
+			.ticks(8)
+			.tickSize(-height + margin.top + margin.bottom)
+			.tickFormat('')
+	);
+svg
+	.append('g')
+	.attr('class', 'grid')
+	.attr('transform', 'translate(' + margin.left + ',0)')
+	.attr('stroke-opacity', 0.5)
+	.call(
+		axisLeft(yScale)
+			.ticks(8)
+			.tickSize(-width + margin.left + margin.right)
+			.tickFormat('')
+	);
 const createScatterplot = (_data) => {
 	svg
 		.selectAll('circle')
