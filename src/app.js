@@ -11,8 +11,8 @@ import {
 	scaleLinear,
 } from 'd3';
 
-let width = 1200;
-let height = 800;
+let width = 1900;
+let height = 900;
 let margin = { top: 100, right: 100, bottom: 100, left: 100 };
 let colors = ['#596F7E', '#168B98', '#ED5B67', '#fd8f24', '#919c4c'];
 let minYear = min(data, (d) => d.year);
@@ -23,7 +23,7 @@ const svg = select('#final')
 	.attr('width', width)
 	.attr('height', height);
 
-const t = svg.transition().duration(2000);
+const t = svg.transition().duration(3000);
 //const circle = svg;
 
 const xScale = scaleLinear()
@@ -50,7 +50,7 @@ let yAxis = (g) =>
 
 let aScale = scaleSqrt()
 	.domain([0, max(data, (d) => d.population)])
-	.range([0, 20]);
+	.range([0, 70]);
 
 svg.append('g').call(xAxis);
 svg.append('g').call(yAxis);
@@ -96,6 +96,24 @@ svg
 			.tickSize(-width + margin.left + margin.right)
 			.tickFormat('')
 	);
+
+const tooltipMouseOver = (d, i) => {
+	let le = select('body');
+	let div = le
+		.append('g')
+		.append('div')
+		.attr('class', 'tooltip')
+		.style('opacity', 0);
+	div.html(`
+	Country: </br>
+	Population: </br>
+	Life Expectance: </br>
+	Infant Mortality Rate: </br>
+	`);
+};
+
+const tooltipMouseOut = (d, i) => {};
+
 const createScatterplot = (_data) => {
 	svg
 		.selectAll('circle')
@@ -104,7 +122,6 @@ const createScatterplot = (_data) => {
 			(enter) =>
 				enter
 					.append('circle')
-					.attr('class', 'bubble')
 					.attr('fill-opacity', 0)
 					.attr('fill', (d) => d.color)
 					.attr('id', (d, i) => 'point-' + i)
@@ -144,21 +161,24 @@ const createScatterplot = (_data) => {
 					exit.transition(t).attr('r', 0).style('fill-opacity', 0).remove()
 				)
 		);
-
+	const tooltip = select('body').append('div').attr('class', 'tooltip');
 	console.log('se ejecuto');
 };
 
 let year_data = data.filter((obj) => {
 	return obj.year === 1950;
 });
-
+year_data.sort((a, b) => {
+	return b.population - a.population;
+});
 createScatterplot(year_data);
 select('#year').on('input', function () {
 	let year_data = data.filter((obj) => {
 		return obj.year === +this.value;
 	});
-
-	svg.enter();
+	year_data.sort((a, b) => {
+		return b.population - a.population;
+	});
 	createScatterplot(year_data);
 	console.log(year_data);
 	console.log(+this.value);
