@@ -9,18 +9,21 @@ import {
 	axisLeft,
 	scaleSqrt,
 	scaleLinear,
+	scaleOrdinal,
+	map,
+	scaleQuantile,
 } from 'd3';
 
 let width = 1900;
 let height = 900;
 let margin = { top: 100, right: 100, bottom: 100, left: 100 };
-let colors = ['#596F7E', '#168B98', '#ED5B67', '#fd8f24', '#919c4c'];
+
 let minYear = min(data, (d) => d.year);
 let maxYear = max(data, (d) => d.year);
 
 const svg = select('#final')
 	.append('svg')
-	.attr('width', width)
+	.attr('width', '100%')
 	.attr('height', height);
 
 const t = svg.transition().duration(3000);
@@ -97,6 +100,54 @@ svg
 			.tickFormat('')
 	);
 
+let names = [
+	'Asia',
+	'Europe',
+	'Africa',
+	'Middle East',
+	'North America',
+	'Oceania',
+	'South America',
+];
+let color = new Map();
+color.set('Asia', '#f39c12');
+color.set('Europe', '#8e44ad');
+color.set('Africa', '#2980b9');
+color.set('Middle East', '#34495e');
+color.set('North America', '#5dade2');
+color.set('Oceania', '#e74c3c');
+color.set('South America', '#2ecc71');
+svg
+	.selectAll('legend_dots')
+	.data(names)
+	.enter()
+	.append('rect')
+	.attr('x', '86%')
+	.attr('y', (d, i) => {
+		return 100 + i * 20;
+	})
+	.attr('width', 20)
+	.attr('height', 20)
+	.attr('fill', (d) => {
+		return color.get(d);
+	});
+
+svg
+	.selectAll('legend_labels')
+	.data(names)
+	.enter()
+	.append('text')
+	.attr('x', '87.5%')
+	.attr('y', (d, i) => {
+		return 115 + i * 20;
+	})
+	.text((d) => {
+		return d;
+	})
+	.attr('width', 20)
+	.attr('height', 20)
+	.attr('fill', (d) => color.get(d));
+
 const tooltipMouseOver = (d, i) => {
 	let le = select('body');
 	let div = le
@@ -133,6 +184,7 @@ const createScatterplot = (_data) => {
 						console.log(d.life_expectance);
 						console.log(d.infant_mortality_rate);
 						console.log(d.population);
+						console.log(d.color);
 					})
 					.call((enter) =>
 						enter
@@ -155,6 +207,7 @@ const createScatterplot = (_data) => {
 						console.log(d.life_expectance);
 						console.log(d.infant_mortality_rate);
 						console.log(d.population);
+						console.log(d.color);
 					}),
 			(exit) =>
 				exit.call((exit) =>
@@ -171,6 +224,7 @@ let year_data = data.filter((obj) => {
 year_data.sort((a, b) => {
 	return b.population - a.population;
 });
+
 createScatterplot(year_data);
 select('#year').on('input', function () {
 	let year_data = data.filter((obj) => {
