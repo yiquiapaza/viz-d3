@@ -9,9 +9,8 @@ import {
 	axisLeft,
 	scaleSqrt,
 	scaleLinear,
-	scaleOrdinal,
-	map,
-	scaleQuantile,
+	event,
+	selectAll,
 } from 'd3';
 
 let width = 1900;
@@ -150,20 +149,75 @@ svg
 
 const tooltipMouseOver = (d, i) => {
 	let le = select('body');
-	let div = le
-		.append('g')
-		.append('div')
-		.attr('class', 'tooltip')
-		.style('opacity', 0);
-	div.html(`
-	Country: </br>
-	Population: </br>
-	Life Expectance: </br>
-	Infant Mortality Rate: </br>
-	`);
+	let div = le.append('div').attr('class', 'tooltip').style('opacity', 0);
+	div
+		.html(
+			`
+	Country: ${d.name} </br>
+	Population: ${d.population}</br>
+	Life Expectance: ${d.life_expectance}</br>
+	Infant Mortality Rate: ${d.infant_mortality_rate}</br>
+	`
+		)
+		.style('opacity', 1)
+		.style('left', event.pageX + 28 + 'px')
+		.style('top', event.pageY + 28 + 'px');
+
+	let le2 = selectAll('circle#point-' + i);
+	le2
+		.transition()
+		.duration(100)
+		.style('fill-opacity', 0.9)
+		.style('stroke', 'black')
+		.style('stroke-width', '1px')
+		.style('stroke-opacity', 0.7);
 };
 
-const tooltipMouseOut = (d, i) => {};
+const tooltipMouseOut = (d, i) => {
+	let el = select('.tooltip');
+	el.remove();
+	let el2 = selectAll('circle#point-' + i);
+
+	el2
+		.transition()
+		.duration(100)
+		.style('fill-opacity', 0.75)
+		.style('stroke-width', '0px');
+};
+
+let sendYear = (year) => {
+	fetch('http://localhost:3000/year', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify({ year: +year }),
+	})
+		.then((response) => response.json)
+		.then((data) => {
+			console.log('Success: ', data);
+		})
+		.catch((error) => {
+			console.error('Error', error);
+		});
+};
+
+let sendData = (country_code) => {
+	fetch('http://localhost:3000/data', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify({ country_code: +country_code }),
+	})
+		.then((response) => response.json)
+		.then((data) => {
+			console.log('Success:', data);
+		})
+		.catch((error) => {
+			console.error(error);
+		});
+};
 
 const createScatterplot = (_data) => {
 	svg
@@ -180,12 +234,15 @@ const createScatterplot = (_data) => {
 					.attr('cy', height / 2 - margin.bottom)
 					.attr('r', 0)
 					.on('click', (d) => {
+						sendData(d.country_code);
 						console.log(d.name);
 						console.log(d.life_expectance);
 						console.log(d.infant_mortality_rate);
 						console.log(d.population);
 						console.log(d.color);
 					})
+					.on('mouseover', (d, i) => tooltipMouseOver(d, i))
+					.on('mouseout', (d, i) => tooltipMouseOut(d, i))
 					.call((enter) =>
 						enter
 							.transition(t)
@@ -208,13 +265,15 @@ const createScatterplot = (_data) => {
 						console.log(d.infant_mortality_rate);
 						console.log(d.population);
 						console.log(d.color);
-					}),
+					})
+					.on('mouseover', (d, i) => tooltipMouseOver(d, i))
+					.on('mouseout', (d, i) => tooltipMouseOut(d, i)),
 			(exit) =>
 				exit.call((exit) =>
 					exit.transition(t).attr('r', 0).style('fill-opacity', 0).remove()
 				)
 		);
-	const tooltip = select('body').append('div').attr('class', 'tooltip');
+
 	console.log('se ejecuto');
 };
 
@@ -230,6 +289,7 @@ select('#year').on('input', function () {
 	let year_data = data.filter((obj) => {
 		return obj.year === +this.value;
 	});
+	sendYear(this.value);
 	year_data.sort((a, b) => {
 		return b.population - a.population;
 	});
