@@ -20,6 +20,13 @@ let margin = { top: 100, right: 100, bottom: 100, left: 100 };
 let minYear = min(data, (d) => d.year);
 let maxYear = max(data, (d) => d.year);
 
+let maxPopulation = max(data, (d) => d.population);
+console.log(maxPopulation);
+let maxLifeExpectance = max(data, (d) => d.life_expectance);
+console.log(maxLifeExpectance);
+let maxInfantMortalityRate = max(data, (d) => d.infant_mortality_rate);
+console.log(maxInfantMortalityRate);
+
 const svg = select('#final')
 	.append('svg')
 	.attr('width', '100%')
@@ -235,11 +242,6 @@ const createScatterplot = (_data) => {
 					.attr('r', 0)
 					.on('click', (d) => {
 						sendData(d.country_code);
-						console.log(d.name);
-						console.log(d.life_expectance);
-						console.log(d.infant_mortality_rate);
-						console.log(d.population);
-						console.log(d.color);
 					})
 					.on('mouseover', (d, i) => tooltipMouseOver(d, i))
 					.on('mouseout', (d, i) => tooltipMouseOut(d, i))
@@ -260,11 +262,7 @@ const createScatterplot = (_data) => {
 					.attr('cy', (d) => yScale(d.infant_mortality_rate))
 					.attr('r', (d) => aScale(d.population))
 					.on('click', (d) => {
-						console.log(d.name);
-						console.log(d.life_expectance);
-						console.log(d.infant_mortality_rate);
-						console.log(d.population);
-						console.log(d.color);
+						sendData(d.country_code);
 					})
 					.on('mouseover', (d, i) => tooltipMouseOver(d, i))
 					.on('mouseout', (d, i) => tooltipMouseOut(d, i)),
