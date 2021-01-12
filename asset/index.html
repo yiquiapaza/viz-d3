@@ -10,34 +10,112 @@
 			<h1>Visualization in 2D</h1>
 		</header>
 		<main>
-			<div class="container">
-				<h1 style="text-align: center;">Final Scatterplot</h1>
-				<div style="margin: auto;" class="slidecontainer">
-					<div class="container">
-						<form oninput="result.value = parseInt(year.value)">
-							<div>
-								<div>Years</div>
-								<input
-									name="input"
-									type="range"
-									id="year"
-									min="1950"
-									max="1979"
-									value="1950"
-									step="1"
-									class="slider"
-								/>
-								<output id="result" for="year">1950 </output>
-							</div>
-						</form>
+			<container>
+				<div>
+					<p class="border-viz">Select Axes</p>
+				</div>
+				<div class="div-viz">
+					<div class="dropdown-container">
+						<select id="x-axis">
+							<option value=" ">Select x axis</option>
+							<option value="Population">Population</option>
+							<option value="Areble Area">Areble Area</option>
+							<option value="Energy Consumption">Energy Consumption</option>
+							<option value="GDP Per Capita">GDP Per Capita</option>
+							<option value="Life Expectancy (Women)">
+								Life Expectancy (Women)
+							</option>
+							<option value="Life Expectancy (Men)">
+								Life Expectancy (Men)
+							</option>
+							<option value="Life Extectancy">Life Extectancy</option>
+							<option value="Infant Mortality">Infant Mortality</option>
+							<option value="Number of Personal Computer">
+								Number of Personal Computer
+							</option>
+							<option value="Indexed Population">Indexed Population</option>
+							<option value="Indexed Energy Consumption">
+								Indexed Energy Consumption
+							</option>
+							<option value="Indexed GDP">Indexed GDP</option>
+						</select>
+						<div class="select-icon">
+							<svg
+								focusable="false"
+								viewBox="0 0 104 128"
+								width="25"
+								height="35"
+								class="icon"
+							>
+								<path
+									d="m2e1 95a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm0-3e1a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm0-3e1a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm14 55h68v1e1h-68zm0-3e1h68v1e1h-68zm0-3e1h68v1e1h-68z"
+								></path>
+							</svg>
+						</div>
+					</div>
+					<div class="dropdown-container">
+						<select id="y-axis">
+							<option value=" ">Select x axis</option>
+							<option value="Population">Population</option>
+							<option value="Areble Area">Areble Area</option>
+							<option value="Energy Consumption">Energy Consumption</option>
+							<option value="GDP Per Capita">GDP Per Capita</option>
+							<option value="Life Expectancy (Women)">
+								Life Expectancy (Women)
+							</option>
+							<option value="Life Expectancy (Men)">
+								Life Expectancy (Men)
+							</option>
+							<option value="Life Extectancy">Life Extectancy</option>
+							<option value="Infant Mortality">Infant Mortality</option>
+							<option value="Number of Personal Computer">
+								Number of Personal Computer
+							</option>
+							<option value="Indexed Population">Indexed Population</option>
+							<option value="Indexed Energy Consumption">
+								Indexed Energy Consumption
+							</option>
+							<option value="Indexed GDP">Indexed GDP</option>
+						</select>
+						<div class="select-icon">
+							<svg
+								focusable="false"
+								viewBox="0 0 104 128"
+								width="25"
+								height="35"
+								class="icon"
+							>
+								<path
+									d="m2e1 95a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm0-3e1a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm0-3e1a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm14 55h68v1e1h-68zm0-3e1h68v1e1h-68zm0-3e1h68v1e1h-68z"
+								></path>
+							</svg>
+						</div>
 					</div>
 				</div>
-				<div class="container">
-					<div>
-						<div id="final"></div>
-					</div>
-				</div>
+			</container>
+			<h1 style="text-align: center" id="title-axies">Final Scatterplot</h1>
+			<div class="div-center">
+				<button class="menu-button dimension" id="send-data">Send Data</button>
 			</div>
+			<div style="margin: auto" class="slidecontainer">
+				<form oninput="result.value = parseInt(year.value)">
+					<div>
+						<div>Years</div>
+						<input
+							name="input"
+							type="range"
+							id="year"
+							min="1950"
+							max="1979"
+							value="1950"
+							step="1"
+							class="slider"
+						/>
+						<output id="result" for="year">1950 </output>
+					</div>
+				</form>
+			</div>
+			<div id="final"></div>
 		</main>
 	</body>
 </html>

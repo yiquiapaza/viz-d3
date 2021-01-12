@@ -27,6 +27,38 @@ console.log(maxLifeExpectance);
 let maxInfantMortalityRate = max(data, (d) => d.infant_mortality_rate);
 console.log(maxInfantMortalityRate);
 
+let x_axis = document.getElementById('x-axis');
+let y_axis = document.getElementById('y-axis');
+
+let title_axis = document.getElementById('title-axies');
+
+x_axis.onclick = () => {
+	title_axis.innerText = 'X: ' + x_axis.value + ' and ' + 'Y: ' + y_axis.value;
+};
+
+y_axis.onclick = () => {
+	title_axis.innerText = 'X: ' + x_axis.value + ' and ' + 'Y: ' + y_axis.value;
+};
+
+let send_data = document.getElementById('send-data');
+send_data.onclick = () => {
+	fetch('http://192.168.0.30:3000/axis', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		mode: 'cors',
+		body: JSON.stringify({ x: x_axis, y: y_axis }),
+	})
+		.then((response) => response.json())
+		.then((data) => {
+			console.log('Success: ', data);
+		})
+		.catch((error) => {
+			console.error('Error', error);
+		});
+};
+
 const svg = select('#final')
 	.append('svg')
 	.attr('width', '100%')
