@@ -13,6 +13,16 @@ import {
 	selectAll,
 } from 'd3';
 
+import { io } from 'socket.io-client';
+
+const socket = io('http://localhost:3000', {
+	withCredentials: true,
+});
+
+socket.on('connect', () => {
+	console.log(socket.id);
+});
+
 let width = 1900;
 let height = 900;
 let margin = { top: 100, right: 100, bottom: 100, left: 100 };
