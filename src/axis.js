@@ -32,6 +32,31 @@ const createAxis = (id_name, x_name, y_name) => {
 		.append('g')
 		.attr('transform', `translate(60, 60)`)
 		.call(utilScaleY(0, 100, svg_axis.node().getBoundingClientRect().height));
+
+	svg_axis
+		.append('text')
+		.attr(
+			'transform',
+			`translate(${svg_axis.node().getBoundingClientRect().width / 2}, ${
+				svg_axis.node().getBoundingClientRect().height
+			})`
+		)
+		.attr('text-anchor', 'middle')
+		.attr('font-size', '30px')
+		.text(x_name);
+
+	svg_axis
+		.append('text')
+		.attr(
+			'transform',
+			`translate( 20 , ${
+				svg_axis.node().getBoundingClientRect().height / 2
+			})rotate(-90)`
+		)
+		.attr('text-anchor', 'middle')
+		.attr('font-size', '30px')
+		.text(y_name);
+
 	return svg_axis;
 };
 
