@@ -1,12 +1,10 @@
-import createAxis from './axis';
 import './style.css';
 import data from '../data/first_expriment.json';
+import { createScatterPlot } from './visualizations';
 
-const svg_axis = createAxis(
+createScatterPlot(
 	'#scatter--plot--visualization',
-	'test axis x',
-	'test axis y'
+	data,
+	'Energy Consumption',
+	'GDP Per Capita'
 );
-
-console.log(data[0]['Energy Consumption'][0]);
-console.log(svg_axis.node().getBoundingClientRect().height);
