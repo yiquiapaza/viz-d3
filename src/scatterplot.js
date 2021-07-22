@@ -1,4 +1,5 @@
 import { extentByPropperty, utilScaleLinear } from './util';
+import { selectCountry } from './services';
 
 const scatterPlot = (
 	obj_visualization,
@@ -28,7 +29,10 @@ const scatterPlot = (
 		.attr('fill', '#8e44ad')
 		.attr('cx', (d, i) => xPosition(d['Energy Consumption'][i]))
 		.attr('cy', (d, i) => yPosition(d['GDP Per Capita'][i]))
-		.attr('r', '10');
+		.attr('r', '10')
+		.on('click', () => {
+			selectCountry(1);
+		});
 };
 
 export default scatterPlot;
