@@ -1,6 +1,12 @@
 import { extentByPropperty, utilScaleLinear } from './util';
 import { selectCountry } from './services';
 
+let status_country = { name: '', status: 0 };
+
+const changeStatus = (state) => {
+	return state == 1 ? 0 : 1;
+}
+
 const scatterPlot = (
 	obj_visualization,
 	data,
@@ -30,8 +36,10 @@ const scatterPlot = (
 		.attr('cx', (d, i) => xPosition(d['Energy Consumption'][i]))
 		.attr('cy', (d, i) => yPosition(d['GDP Per Capita'][i]))
 		.attr('r', '10')
-		.on('click', () => {
-			selectCountry(1);
+		.on('click', (d, i) => {
+			status_country.name = d['name'];
+			status_country.status = changeStatus(status_country.status);
+			selectCountry(status_country);
 		});
 };
 
