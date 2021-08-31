@@ -17,3 +17,13 @@
 	margin-bottom: 70px;
 	border: 0px;
 }
+#myProgress {
+  width: 100%;
+  background-color: gainsboro;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
