@@ -1,29 +1,8 @@
-* {
-	font-family: 'Roboto', sans-serif;
-}
-
-.visualization--style {
-	text-align: center;
-	border: 0px;
-}
-.visualization--style h1 {
-	text-align: center;
-}
-
-.visualization--style div {
-	margin-top: 70px;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 70px;
-	border: 0px;
-}
-#myProgress {
-  width: 100%;
-  background-color: gainsboro;
-}
-
-#myBar {
-  width: 1%;
-  height: 30px;
-  background-color: green;
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
